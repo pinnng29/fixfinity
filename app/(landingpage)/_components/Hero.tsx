@@ -13,7 +13,7 @@ import reactStringReplace from 'react-string-replace';
 import { FaWhatsapp } from 'react-icons/fa';
 
 export default function Hero() {
-    const { isSignedIn } = useUser();
+    // const { isSignedIn } = useUser();
 
     return (
         <section className="py-10">
@@ -50,7 +50,26 @@ export default function Hero() {
                     Simple Constructions
                 </h2>
                 <div className="flex items-center gap-3">
-                    {isSignedIn ? (
+                    <Button asChild>
+                        <Link
+                            href="/https://linktr.ee/fixfinity"
+                            className="text-zinc-50"
+                        >
+                            <FaWhatsapp className="mr-1" />
+                            Contact us
+                        </Link>
+                    </Button>
+                    <Button
+                        asChild
+                        variant={'outline'}
+                    >
+                        <Link href={'/'}>
+                            <Github className="mr-2 w-5 h-5" />
+                            Star on Github
+                        </Link>
+                    </Button>
+
+                    {/* {isSignedIn ? (
                         <Button asChild>
                             <Link
                                 href="/https://linktr.ee/fixfinity"
@@ -78,7 +97,7 @@ export default function Hero() {
                             <Github className="mr-2 w-5 h-5" />
                             Star on Github
                         </Link>
-                    </Button>
+                    </Button> */}
                 </div>
                 <div className="mt-16 flex justify-center px-5 sm:px-0">
                     <Image
