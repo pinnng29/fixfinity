@@ -1,8 +1,6 @@
-
-
 export const hero = {
-  heading:
-    '**Provider of Handyman** services\n for **repairing technical** problems.',
+    heading:
+        '**Provider of Handyman** services\n for **repairing technical** problems.',
 };
 
 export const problems = {
@@ -31,7 +29,6 @@ export const problemsItem = [
     },
 ];
 
-
 export const strategy = {
     heading: '**Our strategy**',
 };
@@ -56,4 +53,10 @@ export const strategyItem = [
         title: 'Manage Your Forms',
         description: 'You can manage your forms with a simple dashboard.',
     },
+];
+
+export const links = [
+    { href: '/#home', label: 'Home' },
+    { href: '/#problems', label: 'Problems' },
+    { href: '/#strategy', label: 'Strategy' },
 ];

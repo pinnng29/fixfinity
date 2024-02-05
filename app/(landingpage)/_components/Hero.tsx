@@ -5,7 +5,6 @@ import { Button } from '@/components/ui/button';
 import { soria } from '@/lib/fonts';
 import { hero } from '@/lib/site-config';
 import { cn } from '@/lib/utils';
-import { useUser } from '@clerk/nextjs';
 import { ChevronRight, Github } from 'lucide-react';
 import Image from 'next/image';
 import Link from 'next/link';
