@@ -4,6 +4,7 @@ import { ThemeProvider } from '@/components/providers/ThemeProvider';
 import './globals.css';
 
 import { cn } from '@/lib/utils';
+import Head from './head';
 
 const inter = Inter({ subsets: ['latin'] });
 
@@ -19,6 +20,7 @@ export default function RootLayout({
 }>) {
     return (
         <html lang="en">
+            <Head />
             <body className={cn(inter.className)}>
                 <ThemeProvider
                     attribute="class"

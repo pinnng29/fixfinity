@@ -1,62 +1,62 @@
+
+
 export const hero = {
-    heading:
-        '**Provider of Handyman** services\n for **repairing technical** problems.',
+  heading:
+    '**Provider of Handyman services**\n **for repairing technical problems**',
 };
 
-export const problems = {
-    heading: '**What are the problems?**',
+export const details = {
+    heading: '**Services Details**',
 };
 
-export const problemsItem = [
+export const detailsItem = [
     {
-        title: 'User-friendly Interface',
+        title: 'Layanan Perbaikan (Fixing)',
         description:
-            'Our intuitive interface allow you to build your forms easily and quickly. You can also share your forms with your friends and manage your forms with a simple dashboard.',
+            'Menangani berbagai jenis kerusakan rumah tangga dengan cepat dan efisien. Opsi real-time untuk perbaikan darurat atau penjadwalan sesuai kenyamanan pelanggan. dan Solusi untuk berbagai jenis kerusakan dengan tim tukang berpengalaman.',
     },
     {
-        title: 'Customizable Forms',
+        title: 'Layanan Pembuatan Barang Rumah',
         description:
-            'You can customize your forms with a simple drag and drop. You can also customize your forms with a simple dashboard.',
+            'Menyediakan pembuatan barang rumah seperti kursi, meja, dll sesuai kebutuhan dan desain konsumen. dan Menangani pembangunan proyek konstruksi seperti penambahan ruangan, renovasi kecil dll. dengan fokus pada kualitas dan kepuasan konsumen.',
     },
     {
-        title: 'Share Your Forms',
+        title: 'Layanan Teknis Lainnya',
         description:
-            'You can share your forms with your friends and manage your forms with a simple dashboard.',
-    },
-    {
-        title: 'Manage Your Forms',
-        description: 'You can manage your forms with a simple dashboard.',
+            'Menangani pemasangan gas, pemasangan lampu, pemindahan barang berat mendesak, dan layanan teknis lainnya yang tidak dapat diatasi sendiri oleh konsumen. dan Konsultasi Teknis dengan Memberikan konsultasi dan saran teknis kepada konsumen untuk memahami dan menyelesaikan masalah teknis yang mereka hadapi.',
     },
 ];
 
-export const strategy = {
-    heading: '**Our strategy**',
+
+export const contacts = {
+    heading: '**Contact us**',
 };
 
-export const strategyItem = [
-    {
-        title: 'User-friendly Interface',
-        description:
-            'Our intuitive interface allow you to build your forms easily and quickly. You can also share your forms with your friends and manage your forms with a simple dashboard.',
-    },
-    {
-        title: 'Customizable Forms',
-        description:
-            'You can customize your forms with a simple drag and drop. You can also customize your forms with a simple dashboard.',
-    },
-    {
-        title: 'Share Your Forms',
-        description:
-            'You can share your forms with your friends and manage your forms with a simple dashboard.',
-    },
-    {
-        title: 'Manage Your Forms',
-        description: 'You can manage your forms with a simple dashboard.',
-    },
-];
 
-export const links = [
-    { href: '/#home', label: 'Home' },
-    { href: '/#problems', label: 'Problems' },
-    { href: '/#strategy', label: 'Strategy' },
-];
+
+export const services = {
+    heading: '**Our Professional Services**',
+};
+
+export const servicesItem = [
+    {
+        title: 'First Service',
+        description: 'This is our first service.',
+    },
+    {
+        title: 'Second Service',
+        description: 'This is our second service.',
+    },
+    {
+        title: 'Third Service',
+        description: 'This is our second service.',
+    },
+    {
+        title: 'Fourth Service',
+        description: 'This is our second service.',
+    },
+    {
+        title: 'Fifth Service',
+        description: 'This is our second service.',
+    },
+]

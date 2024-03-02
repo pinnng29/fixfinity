@@ -1,14 +1,16 @@
 import Hero from "./_components/Hero";
-import Problems from "./_components/Problems";
-import Strategy from "./_components/Strategy";
+import ServiceDetails from "./_components/Service-details";
+import Services from "./_components/Services";
+import Contacts from "./_components/Contacts";
 
 
 export default function HomePage() {
   return (
     <>
       <Hero />
-      <Problems />
-      <Strategy />
+      <Services />
+      <ServiceDetails />
+      <Contacts />
     </>
   )
 }
