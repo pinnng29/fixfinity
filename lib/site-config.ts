@@ -11,19 +11,34 @@ export const details = {
 
 export const detailsItem = [
     {
-        title: 'Layanan Perbaikan (Fixing)',
+        title: 'Fixing',
         description:
-            'Menangani berbagai jenis kerusakan rumah tangga dengan cepat dan efisien. Opsi real-time untuk perbaikan darurat atau penjadwalan sesuai kenyamanan pelanggan. dan Solusi untuk berbagai jenis kerusakan dengan tim tukang berpengalaman.',
+            'FixFinity menyediakan layanan perbaikan yang cepat dan handal untuk berbagai kebutuhan konsumen. Tim kami akan membantu Anda Memperbaiki masalah yang Anda temukan.',
     },
     {
-        title: 'Layanan Pembuatan Barang Rumah',
+        title: 'Building',
         description:
-            'Menyediakan pembuatan barang rumah seperti kursi, meja, dll sesuai kebutuhan dan desain konsumen. dan Menangani pembangunan proyek konstruksi seperti penambahan ruangan, renovasi kecil dll. dengan fokus pada kualitas dan kepuasan konsumen.',
+            'Kami juga menawarkan layanan pembangunan untuk proyek-proyek konstruksi kecil hingga menengah. Dari bangunan kecil hingga perbaikan rumah tangga, dan tim kami akan mewujudkan proyek Anda dengan hasil berkualitas',
     },
     {
-        title: 'Layanan Teknis Lainnya',
+        title: 'Painting',
         description:
-            'Menangani pemasangan gas, pemasangan lampu, pemindahan barang berat mendesak, dan layanan teknis lainnya yang tidak dapat diatasi sendiri oleh konsumen. dan Konsultasi Teknis dengan Memberikan konsultasi dan saran teknis kepada konsumen untuk memahami dan menyelesaikan masalah teknis yang mereka hadapi.',
+            'Layanan cat kami mencakup berbagai jenis proyek, mulai dari pengecatan interior hingga eksterior. Tim ahli kami akan membantu Anda memilih warna yang tepat dan memberikan hasil pengecatan yang rapi dan tahan lama.',
+    },
+    {
+        title: 'Repairing',
+        description:
+            'FixFinity menawarkan layanan perbaikan untuk berbagai jenis bangunan, mulai dari renovasi kecil hingga proyek perbaikan besar. Tim kami terdiri dari para ahli yang berpengalaman dalam bidang konstruksi dan perbaikan bangunan.',
+    },
+    {
+        title: 'Maintaining',
+        description:
+            'Kami juga menyediakan layanan pemeliharaan rutin untuk memastikan perangkat dan properti Anda tetap dalam kondisi terbaik. Dari perawatan rutin hinggan perbaikan preventif.',
+    },
+    {
+        title: 'Cleaning',
+        description:
+            'FixFinity menyediakan layanan pembersihan yang komprehensif, termasuk pembersihan umum, pembersihan mendalam, dan layanan khusus lainnya sesuai kebutuhan Anda. ',
     },
 ];
 

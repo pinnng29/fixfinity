@@ -3,7 +3,8 @@
 import Logo from './Logo';
 import ThemeSwitcher from './ThemeSwitcher';
 import { Avatar, AvatarImage } from './ui/avatar';
-import { NavigationMenuBar } from './Navigation-Bar';
+import { NavigationBar } from './Navigation-Bar';
+import ContactButton from './contact-button';
 
 export default function Navbar() {
     // const { user } = useUser();
@@ -11,15 +12,16 @@ export default function Navbar() {
     return (
         <nav className="flex h-[64px] items-center justify-between border-b border-border px-4 shadow-md">
             <Logo />
-            <NavigationMenuBar />
+            <NavigationBar />
             <div className="flex items-center gap-3">
                 <ThemeSwitcher />
-                <Avatar>
+                <ContactButton />
+                {/* <Avatar>
                     <AvatarImage
                         src="https://github.com/shadcn.png"
                         alt="@shadcn"
                     />
-                </Avatar>
+                </Avatar> */}
             </div>
         </nav>
 

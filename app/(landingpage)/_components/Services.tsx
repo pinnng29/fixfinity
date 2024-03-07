@@ -3,6 +3,8 @@ import {
   Carousel,
   CarouselContent,
   CarouselItem,
+  CarouselNext,
+  CarouselPrevious,
 } from '@/components/ui/carousel';
 import { soria } from '@/lib/fonts';
 import { services } from '@/lib/site-config';
@@ -37,27 +39,35 @@ export default function Services() {
               )
             )}
           </h2>
-          <div className='mx-auto'>
-            <Carousel className="w-full max-w-md mt-4">
+
+          <div className="mx-auto">
+            <Carousel className="w-full max-w-md">
               <CarouselContent className="-ml-1">
                 {serviceItem.map((service, i) => (
                   <CarouselItem
                     key={i}
-                    className="pl-1 md:basis-1/2"
+                    className="pl-1 md:basis-1/2 lg:basis-1/3"
                   >
-                    <Card>
-                      <div className="p-6">
-                        <CardHeader className="text-2xl font-serif sm:px-0 md:text-4xl lg:text-2xl">
-                          {service.title}
-                        </CardHeader>
+                    <div className="p-3 lg:p-1 md:p-4">
+                      <p
+                        className={cn(
+                          soria.className,
+                          ' text-3xl lg:text-xl md:text-lg sm:text-2xl tracking-wide capitalize'
+                        )}
+                      >
+                        {service.title}
+                      </p>
+                      <Card>
                         <CardContent className="flex aspect-square items-center justify-center p-6">
-                          {service.label}
+                          <span>{service.label}</span>
                         </CardContent>
-                      </div>
-                    </Card>
+                      </Card>
+                    </div>
                   </CarouselItem>
                 ))}
               </CarouselContent>
+              <CarouselPrevious className=''/>
+              <CarouselNext />
             </Carousel>
           </div>
         </div>

@@ -13,7 +13,7 @@ export default function Contacts() {
       id="contacts"
       className="mx-auto mt-10 max-w-xl px-6 py-24 text-center"
     >
-      <Badge className="mb-6 text-zinc-50">Why FixFinity?</Badge>
+      <Badge className="text-lg mb-6 text-zinc-50">Why FixFinity?</Badge>
       <div className="flex flex-col items-center justify-center rounded-xl border border-border p-10 shadow-xl">
         <h2
           className={cn(soria.className, 'text-4xl font-semibold sm:text-6xl')}
@@ -28,7 +28,7 @@ export default function Contacts() {
           ))}
         </h2>
         <p className="mt-4 text-muted-foreground">
-          Next Form is open source and available on Github.
+          Anda dapat menghubungi kami melalui kontak di bawah ini. Tim kami akan berusaha untuk merespons pesan Anda dalam waktu yang sesingkat-singkatnya, Terima kasih!
         </p>
         <Button
           asChild

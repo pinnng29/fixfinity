@@ -42,7 +42,7 @@ export default function Hero() {
           ))}
         </h1>
         <Badge className='mt-10 flex items-center gap-2 text-lg font-extralight text-zinc-50'>
-          Nge-fix maslaah teknisimu, tanpa batas!
+          Nge-fix masalah teknisimu, tanpa batas!
           <ChevronRight className='h-5 w-5'/>
         </Badge>
         <p className="mx-auto mt-4 font-semibold text-center max-w-4xl sm:px-0 md:text-lg lg:text-sm">
@@ -82,56 +82,8 @@ export default function Hero() {
               For more information
             </Link>
           </Button>
-
-          {/* {isSignedIn ? (
-                        <Button asChild>
-                            <Link
-                                href="/https://linktr.ee/fixfinity"
-                                className="text-zinc-50"
-                            >
-                                <FaWhatsapp className="mr-1" />
-                                Contact us
-                            </Link>
-                        </Button>
-                    ) : (
-                        <Button asChild>
-                            <Link
-                                href={'/sign-in'}
-                                className="text-zinc-50"
-                            >
-                                Get started
-                            </Link>
-                        </Button>
-                    )}
-                    <Button
-                        asChild
-                        variant={'outline'}
-                    >
-                        <Link href={'/'}>
-                            <Github className="mr-2 w-5 h-5" />
-                            Star on Github
-                        </Link>
-                    </Button> */}
         </div>
-        <div className="mt-16 mr-3 flex justify-center px-5 sm:px-0">
-          {/* <Image
-                        src="/form-builder-dark.png"
-                        width={800}
-                        height={400}
-                        alt="Form Builder"
-                        unoptimized
-                        priority
-                        className="block rounded-sm dark:hidden"
-                    />
-                    <Image
-                        src="/form-builder-light.png"
-                        width={800}
-                        height={400}
-                        alt="Form Builder"
-                        unoptimized
-                        priority
-                        className="hidden rounded-sm dark:block"
-                    /> */}
+        <div className="mt-16 flex items-center justify-center px-5 sm:px-0">
           <Image
             src="/fixfinity-logo.png"
             width={200}

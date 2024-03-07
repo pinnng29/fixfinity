@@ -14,7 +14,6 @@ export default function ServiceDetails() {
     >
       <div className="container mx-auto delay-300 duration-1000 animate-in fade-in slide-in-from-bottom-7">
         <div className="flex flex-col items-center justify-center space-y-4 text-center">
-          <Badge className="text-zinc-50">Services Details</Badge>
           <h2
             className={cn(
               soria.className,
@@ -35,11 +34,11 @@ export default function ServiceDetails() {
             )}
           </h2>
         </div>
-        <div className="mx-auto mt-10 grid items-start gap-4 sm:grid-cols-3 lg:grid-cols-3">
+        <div className="mx-auto mt-10 grid items-start gap-4 sm:grid-cols-2 lg:grid-cols-3">
           {detailsItem.map((detail, i) => (
             <Card
               key={i}
-              className="min-h-[220px]"
+              className="min-h-[155px]"
             >
               <CardHeader className="text-lg font-bold items-center">
                 {detail.title}

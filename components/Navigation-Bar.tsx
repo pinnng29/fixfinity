@@ -11,7 +11,7 @@ import {
   navigationMenuTriggerStyle,
 } from '@/components/ui/navigation-menu';
 
-export function NavigationMenuBar() {
+export function NavigationBar() {
   return (
     <NavigationMenu>
       <NavigationMenuList className="hidden md:flex md:space-x-4">

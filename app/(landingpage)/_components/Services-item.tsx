@@ -1,18 +1,29 @@
-import { FaHammer } from 'react-icons/fa';
-import { GiHamburgerMenu } from 'react-icons/gi';
-import { TbHomeShield } from 'react-icons/tb';
+import { 
+  Hammer, 
+  Home, 
+  Paintbrush, 
+  Settings, Settings2 
+} from 'lucide-react';
 
 export const serviceItem = [
   {
     title: 'Fixing ',
-    label: <FaHammer className="w-[75px] h-[75px]" />,
+    label: <Settings size={'50px'} />,
   },
   {
     title: 'Build ',
-    label: <TbHomeShield className="w-[75px] h-[75px]" />,
+    label: <Home size={'50px'} />,
   },
   {
-    title: 'Other',
-    label: <GiHamburgerMenu className="w-[75px] h-[75px]" />,
+    title: 'Painting',
+    label: <Paintbrush size={'50px'} />,
+  },
+  {
+    title: 'Repairing',
+    label: <Hammer size={'50px'} />,
+  },
+  {
+    title: 'Maintaining',
+    label: <Settings2 size={'50px'} />,
   },
 ];
