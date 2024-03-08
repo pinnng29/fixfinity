@@ -41,24 +41,22 @@ export default function Hero() {
             </span>
           ))}
         </h1>
-        <Badge className='mt-10 flex items-center gap-2 text-lg font-extralight text-zinc-50'>
+        <Badge className="mt-10 flex items-center gap-2 text-lg font-semibold text-zinc-50">
           Nge-fix masalah teknisimu, tanpa batas!
-          <ChevronRight className='h-5 w-5'/>
         </Badge>
-        <p className="mx-auto mt-4 font-semibold text-center max-w-4xl sm:px-0 md:text-lg lg:text-sm">
+        <h2 className="mt-3 max-w-[550px] text-center text-lg p-6 font-semibold">
           Fixfinity adalah platform penyedia jasa layanan tukang yang
-          menghubungkan para tukang terampil dengan pelanggan yang membutuhkan
-          solusi perbaikan rumah dan layanan sejenisnya. Kami bertekad
-          memberikan pengalaman layanan yang gampang dan bisa di andalkan.
-          Memudahkan proses pencarian, penjadwalan, dan pembayaran layanan
-          tukang secara online. Dengan platform kami, Anda menemukan tukang yang
-          sesuai dengan kebutuhan Anda. Kami memahami betapa merepotkannya
-          mencari tukang yang cocok dan mengatasi masalah teknis di rumah
-          sendiri. Itulah sebabnya kami ada disini. Dengan layanan yang mencakup
-          segala hal mulai dari perbaikan listrik, pipa, renovasi, hingga
-          proyek-proyek kecil sehari-hari, kami siap membantu Anda menyelesaikan
-          segala macam proyek rumah.
-        </p>
+          menghubungkan tukang terampil dengan pelanggan yang membutuhkan solusi
+          perbaikan rumah dan layanan sejenisnya. Kami berkomitmen untuk
+          memberikan pengalaman layanan yang mudah diandalkan, memudahkan proses
+          pencarian, penjadwalan, dan pembayaran layanan tukang secara online.
+          Dengan platform kami, Anda dapat dengan mudah menemukan tukang yang
+          sesuai dengan kebutuhan Anda. Kami mengerti betapa sulitnya mencari
+          tukang yang cocok dan mengatasi masalah teknis di rumah sendiri. Oleh
+          karena itu, kami hadir untuk membantu Anda menyelesaikan berbagai
+          macam proyek rumah, termasuk perbaikan listrik, pipa, renovasi, dan
+          proyek-proyek kecil sehari-hari.
+        </h2>
         <div className="flex items-center gap-2 mt-8">
           <Button asChild>
             <Link
@@ -72,7 +70,7 @@ export default function Hero() {
           </Button>
           <Button
             asChild
-            variant={'outline'}
+            variant={'dark'}
           >
             <Link
               href={'https://linktr.ee/fixfinity'}
