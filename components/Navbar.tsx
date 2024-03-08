@@ -1,7 +1,6 @@
 'use client';
 
 import Logo from './Logo';
-import ThemeSwitcher from './ThemeSwitcher';
 import { Avatar, AvatarImage } from './ui/avatar';
 import { NavigationBar } from './Navigation-Bar';
 import ContactButton from './contact-button';

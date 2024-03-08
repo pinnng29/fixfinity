@@ -9,7 +9,7 @@ export default function ContactButton() {
       <Button
         asChild
         size={'default'}
-        variant={'secondary'}
+        variant={'default'}
       >
         <Link
           href={'https://wa.me/6281364664824'}
