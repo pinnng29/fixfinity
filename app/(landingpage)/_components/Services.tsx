@@ -40,15 +40,15 @@ export default function Services() {
             )}
           </h2>
 
-          <div className="mx-auto">
+          
             <Carousel className="w-full max-w-md">
               <CarouselContent className="-ml-1">
                 {serviceItem.map((service, i) => (
                   <CarouselItem
                     key={i}
-                    className="pl-1 md:basis-1/2 lg:basis-1/3"
+                    className="pl-1 flex-none p-2 md:basis-1/2 lg:basis-1/3"
                   >
-                    <div className="p-3 lg:p-1 md:p-4">
+                    <div className="p-4 border rounded-lg shadow-md lg:p-1 md:p-4">
                       <p
                         className={cn(
                           soria.className,
@@ -66,10 +66,10 @@ export default function Services() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious className=''/>
+              <CarouselPrevious />
               <CarouselNext />
             </Carousel>
-          </div>
+          
         </div>
       </div>
     </section>
