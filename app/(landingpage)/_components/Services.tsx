@@ -66,10 +66,7 @@ export default function Services() {
                   </CarouselItem>
                 ))}
               </CarouselContent>
-              <CarouselPrevious />
-              <CarouselNext />
             </Carousel>
-          
         </div>
       </div>
     </section>
