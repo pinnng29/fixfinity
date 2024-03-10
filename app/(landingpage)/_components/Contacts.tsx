@@ -14,7 +14,7 @@ export default function Contacts() {
       className="mx-auto mt-10 max-w-xl px-6 py-24 text-center"
     >
       <Badge className="text-lg mb-6 text-zinc-50">Why FixFinity?</Badge>
-      <div className="flex flex-col items-center justify-center rounded-xl border border-border p-10 shadow-xl">
+      <div className="flex flex-col items-center justify-center rounded-xl border border-border p-10 shadow-xl shadow-amber-600">
         <h2
           className={cn(soria.className, 'text-4xl font-semibold sm:text-6xl')}
         >
