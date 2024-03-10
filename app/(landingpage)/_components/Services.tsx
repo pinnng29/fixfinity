@@ -57,7 +57,7 @@ export default function Services() {
                       >
                         {service.title}
                       </p>
-                      <Card>
+                      <Card className='shadow-md shadow-amber-600'>
                         <CardContent className="flex aspect-square items-center justify-center p-6">
                           <span>{service.label}</span>
                         </CardContent>
