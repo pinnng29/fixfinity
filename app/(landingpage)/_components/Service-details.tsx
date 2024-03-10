@@ -38,7 +38,7 @@ export default function ServiceDetails() {
           {detailsItem.map((detail, i) => (
             <Card
               key={i}
-              className="min-h-[155px]"
+              className="min-h-[155px] shadow-md shadow-amber-600"
             >
               <CardHeader className="text-lg font-bold items-center">
                 {detail.title}
