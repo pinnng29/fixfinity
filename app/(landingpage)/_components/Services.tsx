@@ -52,7 +52,7 @@ export default function Services() {
                       <p
                         className={cn(
                           soria.className,
-                          ' text-2xl font-bold lg:text-xl md:text-2xl sm:text-2xl tracking-wide capitalize'
+                          'font-bold text-lg md:text-md sm:text-md tracking-wide capitalize'
                         )}
                       >
                         {service.title}
