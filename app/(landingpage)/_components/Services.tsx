@@ -48,7 +48,7 @@ export default function Services() {
                     key={i}
                     className="pl-1 flex-none p-2 md:basis-1/2 lg:basis-1/3"
                   >
-                    <div className="p-4 border rounded-lg shadow-md lg:p-1 md:p-4">
+                    <div className="p-4 border rounded-lg shadow-md lg:p-4 md:p-6">
                       <p
                         className={cn(
                           soria.className,
